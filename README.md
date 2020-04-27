@@ -53,3 +53,4 @@ INPUT:
        
 OUTPUT:
     - "seg_den_suit.nii": DN segmentation obtain with atlas SUIT
+    
