@@ -4,7 +4,7 @@ This method is implemented in Matlab19a using the Deep Learning Toolbox. The CNN
 
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/CNN_cap4_ok.png)
 
-N.B. put path with ' ' (single comma); example: '/media/bcc/bcc-data/MARTA/HCP'
+N.B. put path with single comma ' ' (example: '/media/bcc/bcc-data/MARTA/HCP')
 
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
