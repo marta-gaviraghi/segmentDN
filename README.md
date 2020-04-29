@@ -26,7 +26,7 @@ OUTPUT:
 - b0 resampled and normalized, name "B0_N.nii"
 
 -----------------------------------------------------------------------------------------
-### 2) CNN_postprocessing(path_CNN, dir_seg)
+### 2) CNN_postprocessing(dir_seg, path_CNN)
 
 segment DN using CNN and clear FP using segmentation DN obteined with SUIT
 
@@ -36,8 +36,8 @@ REQUIRED:
 - check to have matRead.m and dicePixelClassificationLayer.m (available in Directoy download)
 
 INPUT:
-- path_CNN: path to Directoy download where are "rete.mat" 
 - dir_seg: path to directory that contain images that you want to segment
+- path_CNN: path to Directoy download where are "rete.mat" 
 
 OUTPUT:
 - "DN_CNN" segmentation obtained with CNN to your resolution
