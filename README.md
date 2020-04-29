@@ -1,4 +1,4 @@
-# CODE TO AUTOMATICALLY SEGMENT THE DENTATE NUCLEI 
+# Automatic segmentation of dentate nuclei
 ## implemented in Matlab19a using the Deep Learning Toolbox.
 
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
