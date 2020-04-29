@@ -15,7 +15,7 @@ resampling and normalize the b0 image:
 
 *resampling image* (that you want to segment) to spatial resolution of HCP (this resolution is that was used for CNN training)
 
-*intensity normalize*: mean=0 and std=1 for the voxels that belong to brain -> it is required a mask of the brain
+*intensity normalization*: mean=0 and std=1 for the voxels that belong to brain -> it is required a mask of the brain
 
 REQUIRED:
 - flirt (FSL)
