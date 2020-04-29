@@ -63,4 +63,10 @@ INPUT:
        
 OUTPUT:
 - "seg_den_suit.nii": DN segmentation obtain with atlas SUIT
-    
+
+-----------------------------------------------------------------------------------------
+### Architeture for CNN
+
+![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
+
+see *paper* for more details
