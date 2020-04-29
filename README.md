@@ -1,10 +1,10 @@
 # Automatic segmentation of dentate nuclei
-### Implemented in Matlab19a using the Deep Learning Toolbox
+
+This method is implemented in Matlab19a using the Deep Learning Toolbox. The CNN implemented in 2D is an automated segmentation method using the non-DWI (b0) images from a DWI dataset. See *paper* for more details.
 
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/CNN_cap4_ok.png)
 
-N.B. put path with '' (single comma)
-example: '/media/bcc/bcc-data/MARTA/HCP'
+N.B. put path with ' ' (single comma); example: '/media/bcc/bcc-data/MARTA/HCP'
 
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
@@ -69,4 +69,3 @@ OUTPUT:
 
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/Figure_1.bmp)
 
-see *paper* for more details
