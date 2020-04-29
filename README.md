@@ -1,10 +1,12 @@
 CODE TO AUTOMATICALLY SEGMENT THE DENTATE NUCLEI implemented in Matlab19a using the Deep Learning Toolbox.
 
 N.B. put path with ''
+
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
-########################################################################################################################################
+------------------------------------------------------------
 1) *function: **resampling_normalize**(dir_seg, ref_img)*
+
 resampling and normalize the b0 image
 	* resampling image (that you want to segment) to spatial resolution of HCP (this resolution is that was used for CNN training)
 	* intensity normalize: mean=0 and std=1 for the voxels that belong to brain -> it is required a mask of the brain
@@ -20,8 +22,8 @@ OUTPUT:
 - b0 resampled, name "b0_125.nii.gz"
 - b0 resampled and normalized, name "B0_N.nii"
 
-
-2) **CNN_postprocessing.m** *function: CNN_postprocessing(path_CNN, dir_seg)*
+-------------------------------------------------------
+2) *function: **CNN_postprocessing**(path_CNN, dir_seg)*
 
 segment DN using CNN and clear FP using segmentation DN obteined with SUIT
 
@@ -37,8 +39,8 @@ INPUT:
 OUTPUT:
 - "DN_CNN" segmentation obtained with CNN to your resolution
 
-
-3) **segment_DN_SUIT.m** *function: segment_DN_SUIT(dir_seg)*
+---------------------------------------------------
+3) *function: **segment_DN_SUIT**(dir_seg)*
 
 DN segmentation with ATLAS SUIT
 
