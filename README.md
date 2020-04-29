@@ -22,7 +22,7 @@ REQUIRED:
 - image HCP (as refrence for resampling) "SIGNAL.nii.gz" (available in Directory "download")
 
 INPUT: 
-- dir_seg: directory with content N directory as N subjects to segment. In each directory there are: b0("b0.nii.gz") and mask oF brain ("brain_mask.nii.gz").
+- dir_seg: directory with content N directory as N subjects to segment. In each directory there are: b0 ("b0.nii.gz") and mask of brain ("brain_mask.nii.gz").
 - ref_img: path to b0 of HCP to use as reference; path must end with "/SIGNAL.nii.gz"
 
 OUTPUT:
