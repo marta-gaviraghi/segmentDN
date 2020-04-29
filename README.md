@@ -1,5 +1,7 @@
 CODE TO AUTOMATICALLY SEGMENT THE DENTATE NUCLEI implemented in Matlab19a using the Deep Learning Toolbox.
 
+![alt text](http://url/to/img.png)
+
 N.B. put path with ''
 
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
