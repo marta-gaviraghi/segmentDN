@@ -8,7 +8,7 @@ N.B. put path with ''
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
 -----------------------------------------------------------------------------------------
-### 1) resampling_normalize*(dir_seg, ref_img)*
+### 1) resampling_normalize_(dir_seg, ref_img)_
 
 resampling and normalize the b0 image
 	* resampling image (that you want to segment) to spatial resolution of HCP (this resolution is that was used for CNN training)
@@ -26,7 +26,7 @@ OUTPUT:
 - b0 resampled and normalized, name "B0_N.nii"
 
 -----------------------------------------------------------------------------------------
-### 2) CNN_postprocessing*(path_CNN, dir_seg)*
+### 2) **CNN_postprocessing_(path_CNN, dir_seg)_**
 
 segment DN using CNN and clear FP using segmentation DN obteined with SUIT
 
