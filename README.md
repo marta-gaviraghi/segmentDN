@@ -6,12 +6,12 @@ This method is implemented in Matlab19a using the Deep Learning Toolbox. The CNN
 
 N.B. put path with single comma ' ' (example: '/media/bcc/bcc-data/MARTA/HCP')
 
-Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
+Three functions: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
 -----------------------------------------------------------------------------------------
 ### 1) resampling_normalize(dir_seg, ref_img)
 
-resampling and normalize the b0 image:
+Resampling and normalize the b0 image:
 
 *resampling image* (that you want to segment) to spatial resolution of HCP (this resolution is that was used for CNN training)
 
@@ -32,7 +32,7 @@ OUTPUT:
 -----------------------------------------------------------------------------------------
 ### 2) CNN_postprocessing(dir_seg, path_CNN)
 
-segment DN using CNN and clear FP using segmentation DN obteined with SUIT
+Segment DN using CNN and clear FP using segmentation DN obteined with SUIT
 
 REQUIRED:
 - DN segmented with SUIT: "dentati_suit.nii.gz" (if you have not use script "segment_DN_SUIT.m")
