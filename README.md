@@ -67,6 +67,6 @@ OUTPUT:
 -----------------------------------------------------------------------------------------
 ### Architeture for CNN
 
-![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/Figure_1.png)
+![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/Figure_1.bmp)
 
 see *paper* for more details
