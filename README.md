@@ -4,9 +4,9 @@ N.B. put path with ''
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
 1. *function: **resampling_normalize**(dir_seg, ref_img)*
-resampling and normalize the b0 image
-i. resampling image (that you want to segment) to spatial resolution of HCP (this resolution is that was used for CNN training)
-ii. intensity normalize: mean=0 and std=1 for the voxels that belong to brain -> it is required a mask of the brain
+  resampling and normalize the b0 image
+  i. resampling image (that you want to segment) to spatial resolution of HCP (this resolution is that was used for CNN training)
+  ii. intensity normalize: mean=0 and std=1 for the voxels that belong to brain -> it is required a mask of the brain
 
 	REQUIRED:
 - flirt (FSL)
