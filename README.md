@@ -1,7 +1,7 @@
 # Automatic segmentation of dentate nuclei
 ### Implemented in Matlab19a using the Deep Learning Toolbox
 
-![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
+![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/CNN_cap4_ok.png)
 
 N.B. put path with '' (single comma)
 example: '/media/bcc/bcc-data/MARTA/HCP'
@@ -67,6 +67,6 @@ OUTPUT:
 -----------------------------------------------------------------------------------------
 ### Architeture for CNN
 
-![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
+![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/Figure_1.png)
 
 see *paper* for more details
