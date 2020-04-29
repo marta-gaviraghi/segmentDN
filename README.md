@@ -3,7 +3,8 @@
 
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
 
-N.B. put path with ''
+N.B. put path with '' (single comma)
+example: '/media/bcc/bcc-data/MARTA/HCP'
 
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
