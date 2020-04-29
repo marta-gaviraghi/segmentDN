@@ -10,16 +10,16 @@ Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT
 	* intensity normalize: mean=0 and std=1 for the voxels that belong to brain -> it is required a mask of the brain
 
 	REQUIRED:
-	- flirt (FSL)
-	- image HCP (as refrence for resampling) "SIGNAL.nii.gz" (available in Directoy download)
+- flirt (FSL)
+- image HCP (as refrence for resampling) "SIGNAL.nii.gz" (available in Directoy download)
 
 	INPUT: 
-	- dir_seg: directory with content N directory as N subjects to segment. In each directory there are: b0("b0.nii.gz") and mask oF brain ("brain_mask.nii.gz").
-	- ref_img: path to b0 of HCP to use as reference (path must end with SIGNAL.nii.gz)
+- dir_seg: directory with content N directory as N subjects to segment. In each directory there are: b0("b0.nii.gz") and mask oF brain ("brain_mask.nii.gz").
+- ref_img: path to b0 of HCP to use as reference (path must end with SIGNAL.nii.gz)
 
 	OUTPUT:
-	- b0 resampled, name "b0_125.nii.gz"
-	- b0 resampled and normalized, name "B0_N.nii"
+- b0 resampled, name "b0_125.nii.gz"
+- b0 resampled and normalized, name "B0_N.nii"
 
 2) **CNN_postprocessing.m** *function: CNN_postprocessing(path_CNN, dir_seg)*
 
