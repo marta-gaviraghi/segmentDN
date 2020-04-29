@@ -20,6 +20,8 @@ Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT
 - b0 resampled, name "b0_125.nii.gz"
 - b0 resampled and normalized, name "B0_N.nii"
 
+$ indented code
+
 2) **CNN_postprocessing.m** *function: CNN_postprocessing(path_CNN, dir_seg)*
 
 segment DN using CNN and clear FP using segmentation DN obteined with SUIT
