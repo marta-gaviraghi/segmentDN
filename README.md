@@ -1,10 +1,6 @@
 CODE TO AUTOMATICALLY SEGMENT THE DENTATE NUCLEI implemented in Matlab19a using the Deep Learning Toolbox.
 
-img = ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
-<p align="center">
-  <img/>
-</p>
-
+	![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/CNN_cap4_ok.png)
 
 N.B. put path with ''
 
