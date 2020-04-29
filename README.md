@@ -18,7 +18,7 @@ REQUIRED:
 
 INPUT: 
 - dir_seg: directory with content N directory as N subjects to segment. In each directory there are: b0("b0.nii.gz") and mask oF brain ("brain_mask.nii.gz").
-- ref_img: path to b0 of HCP to use as reference (path must end with SIGNAL.nii.gz)
+- ref_img: path to b0 of HCP to use as reference; path must end with "/SIGNAL.nii.gz"
 
 OUTPUT:
 - b0 resampled, name "b0_125.nii.gz"
@@ -54,7 +54,7 @@ REQUIRED:
 
 INPUT:
 - dir_seg: path to directory that contain images that you want to segment, In this directory there are N directory as N subjects to 	  segment. In each of N directory there are b0 and T1
-- suit_atlas: path to Cerebellum-SUIT.nii.gz (available in Directoy "download") this path have to end with /Cerebellum-SUIT.nii.gz 
+- suit_atlas: path to Cerebellum-SUIT.nii.gz (available in Directoy "download") this path have to end with "/Cerebellum-SUIT.nii.gz"
        
 OUTPUT:
 - "seg_den_suit.nii": DN segmentation obtain with atlas SUIT
