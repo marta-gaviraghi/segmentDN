@@ -4,7 +4,7 @@ N.B. put path with ''
 
 Three function: resampling_normalize.m, CNN_postprocessing.m and segment_DN_SUIT.m
 
-------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 1) *function: **resampling_normalize**(dir_seg, ref_img)*
 
 resampling and normalize the b0 image
@@ -22,7 +22,7 @@ OUTPUT:
 - b0 resampled, name "b0_125.nii.gz"
 - b0 resampled and normalized, name "B0_N.nii"
 
--------------------------------------------------------
+-----------------------------------------------------------------------------------------
 2) *function: **CNN_postprocessing**(path_CNN, dir_seg)*
 
 segment DN using CNN and clear FP using segmentation DN obteined with SUIT
@@ -39,7 +39,7 @@ INPUT:
 OUTPUT:
 - "DN_CNN" segmentation obtained with CNN to your resolution
 
----------------------------------------------------
+-----------------------------------------------------------------------------------------
 3) *function: **segment_DN_SUIT**(dir_seg)*
 
 DN segmentation with ATLAS SUIT
