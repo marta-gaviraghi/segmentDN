@@ -1,6 +1,6 @@
 # Automatic segmentation of dentate nuclei
 
-This method is implemented in Matlab19a using the Deep Learning Toolbox. The CNN implemented in 2D is an automated segmentation method using the non-DWI (b0) images from a DWI dataset. CNN training was performed on data from healthy subjects with high resolution from the Human Connectome Project (HCP). To demonstrate its clinical applicability, the developed CNN was further used to segment the DNs of a subset of subjects affected by Temporal Lobe Epilepsy (TLE). See *paper* for more details.
+This method is implemented in Matlab19a using the Deep Learning Toolbox. The CNN implemented in 2D is an automated segmentation method using the non-DWI (b0) images from a DWI dataset. CNN training was performed on data from healthy subjects with high resolution from the Human Connectome Project (HCP). To demonstrate its clinical applicability, the developed CNN was further used to segment the DNs of a subset of subjects affected by Temporal Lobe Epilepsy (TLE). See paper *https://doi.org/10.1101/2020.07.29.222430* for more details.
 
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/CNN_cap4_ok.png)
 
