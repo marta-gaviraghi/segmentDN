@@ -15,32 +15,21 @@ The pipeline consists of three scripts:
 3) CNN_postprocessing_3.m: Performs CNN-based DN segmentation and applies a SUIT-based mask filter to remove false positives.
 
 ## Repository Structure
-/script                # MATLAB scripts
+scripts/: Contains the MATLAB scripts for each processing step.
 
-  segment_DN_SUIT_1.m
-  
-  resampling_normalize_2.m
-  
-  CNN_postprocessing_3.m
-  
-/download              # Required files
-
-  Cerebellum-MNI_1mm.nii.gz
-  
-  MNI152_T1_1mm.nii.gz
-  
-  SIGNAL.nii.gz
-  
-  T1_2_MNI152_2mm.cnf
-  
-  rete1.mat             # Pre-trained CNN model
+download/: Includes necessary reference files and templates.
 
 ## Requirements
 - MATLAB (R2020 or later)
 - FSL (FMRIB Software Library)
-- NIfTI Toolbox for MATLAB
 
 ## Usage
+Clone the repository:
+
+   git clone https://github.com/marta-gaviraghi/segmentDN
+   
+Run the scripts in order:
+
 ### segment_DN_SUIT_1.m
 **Inputs:** T1 image, B0 image, download folder, output folder  
 **Outputs:** DN segmentation in B0 space (`DN_diff_SUIT.nii.gz`)  
