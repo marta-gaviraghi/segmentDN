@@ -20,7 +20,7 @@ scripts/: Contains the MATLAB scripts for each processing step.
 download/: Includes necessary reference files and templates.
 
 ## Requirements
-- MATLAB (R2020 or later)
+- MATLAB (R2019 or later)
 - FSL (FMRIB Software Library)
 
 ## Usage
