@@ -25,20 +25,20 @@ download/: Includes necessary reference files and templates.
 
 ## Usage
 Clone the repository:
+   ```bash
+      git clone https://github.com/marta-gaviraghi/segmentDN.git
 
-   git clone https://github.com/marta-gaviraghi/segmentDN
-   
 Run the scripts in order:
 
-### segment_DN_SUIT_1.m
+#### segment_DN_SUIT_1.m
 **Inputs:** T1 image, B0 image, download folder, output folder  
 **Outputs:** DN segmentation in B0 space (`DN_diff_SUIT.nii.gz`)  
 
-### resampling_normalize_2.m
+#### resampling_normalize_2.m
 **Inputs:** B0 image, brain mask, download folder, output folder  
 **Outputs:** Resampled B0 (`b0_125.nii.gz`), normalized B0 (`B0_N.nii.gz`)  
 
-### CNN_postprocessing_3.m
+#### CNN_postprocessing_3.m
 **Inputs:** Output folder, download folder, original B0 image  
 **Outputs:** CNN segmentation (`DN_CNN_final.nii.gz`)
 
