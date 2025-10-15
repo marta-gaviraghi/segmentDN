@@ -3,7 +3,9 @@
 ## Description
 This pipeline implements an automated method to segment the dentate nuclei (DN) from diffusion MRI data using a 2D CNN. It is implemented in MATLAB R2019a with the Deep Learning Toolbox.
 The CNN was trained on high-resolution b0 images from the Human Connectome Project (HCP) and has been tested on clinical external datasets, including Temporal Lobe Epilepsy (TLE) patients.
+
 ![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/CNN_cap4_ok.png)
+
 The pipeline consists of three scripts:
 
 1) segment_DN_SUIT_1.m: extracts the dentate nucleus from the SUIT cerebellar atlas and registers T1 and B0 images into MNI space.
@@ -14,14 +16,23 @@ The pipeline consists of three scripts:
 
 ## Repository Structure
 /script                # MATLAB scripts
+
   segment_DN_SUIT_1.m
+  
   resampling_normalize_2.m
+  
   CNN_postprocessing_3.m
+  
 /download              # Required files
+
   Cerebellum-MNI_1mm.nii.gz
+  
   MNI152_T1_1mm.nii.gz
+  
   SIGNAL.nii.gz
+  
   T1_2_MNI152_2mm.cnf
+  
   rete1.mat             # Pre-trained CNN model
 
 ## Requirements
@@ -50,7 +61,8 @@ DOI: 10.1007/978-3-030-73018-5_21
 
 **If you use this code in your work, please cite the above paper.**
 
+
 ### CNN Architecture
 
-![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/Figure_1.bmp)
 
+![alt text](https://github.com/marta-gaviraghi/segmentDN/blob/master/figure/Figure_1.bmp)
