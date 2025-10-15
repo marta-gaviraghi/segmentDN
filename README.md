@@ -25,8 +25,9 @@ download/: Includes necessary reference files and templates.
 
 ## Usage
 Clone the repository:
-   ```bash
-      git clone https://github.com/marta-gaviraghi/segmentDN.git```
+```bash
+      git clone https://github.com/marta-gaviraghi/segmentDN.git
+```
 
 Run the scripts in order:
 
