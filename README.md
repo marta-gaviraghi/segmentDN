@@ -15,7 +15,7 @@ The pipeline consists of three scripts:
 3) CNN_postprocessing_3.m: Performs CNN-based DN segmentation and applies a SUIT-based mask filter to remove false positives.
 
 ## Repository Structure
-scripts/: Contains the MATLAB scripts for each processing step.
+script/: Contains the MATLAB scripts for each processing step.
 
 download/: Includes necessary reference files and templates.
 
